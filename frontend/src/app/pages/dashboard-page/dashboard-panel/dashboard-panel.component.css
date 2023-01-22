@@ -1,0 +1,45 @@
+.dashboard-panel {
+    background-color: white;
+    width: 250px;
+    text-align: center;
+}
+
+.dashboard-panel-list {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.dashboard-panel-list li {
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.dashboard-panel-list-item {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0.75em;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-panel-list-item:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.832);
+}
+
+.list-active {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    color: #0b8ace;
+}
+
+.dashboard-panel-list-icon {
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+}
